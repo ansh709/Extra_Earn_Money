@@ -156,4 +156,7 @@
 	.myContact>ul>li{
 		display:inline-flex!important;
 	}
+	a:hover{
+		background-color:transparent!important;
+	}
 }
