@@ -1,0 +1,25 @@
+{
+    "name": "Extra Earn Money",
+    "short_name": "EEM",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "black",
+    "theme_color": "black",
+    "orientation": "portrait-primary",
+    "icons": [{
+            "src": "/images/logoBlack.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/images/logoBlack.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/images/icons/logoBlack.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        }
+    ]
+}

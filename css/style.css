@@ -1,0 +1,159 @@
+
+@media (max-width:1200px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+	body{
+		background: rgb(26 28 32)!Important;
+		color: rgb(255 255 255)!important;
+	}
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    .Userprofile {
+        padding: 10px;
+    }
+    .Userprofile>a>img {
+		width: 50px;
+		border-radius: 100px;
+		background: rgb(36 64 101);
+    }
+    .navItem>ul,
+    .navItem>ul>li,
+    .navItem>ul>li>a {
+		margin: 0px 0px;
+		display: inline-flex;
+		font-size: 22px;
+		color:white;
+		width: 100%;
+		padding: 6px;
+    }
+    nav {
+		position: fixed;
+		bottom: 0px;
+		background: rgb(36 64 101);
+		padding: 0px;
+		width: 100%;
+		box-shadow: 0px -9px 9px 15px #80808000;
+		z-index: 99999;
+		
+    }
+    .mySliderItems>ul {
+        display: flex;
+        width: 100%;
+        overflow: scroll;
+        scroll-snap-align: start;
+        flex-shrink: 1;
+        transform-origin: center center;
+        scroll-snap-type: x mandatory;
+    }
+    .mySliderItems>ul>li {
+        display: inline-flex;
+    }
+    .slidItem>img {
+		height: 226px;
+		width: 319px;
+		margin: 0px 6px;
+		scroll-snap-align: start;
+		border-radius: 18px;
+		object-fit: cover;
+    }
+    section {
+        padding: 9px 0px;
+        margin-bottom: 30px;
+    }
+    .processItem>img {
+        width: 100%;
+        padding: 10px;
+        box-shadow: 0px 0px 6px 20px #8080800d;
+        border-radius: 18px;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Josefin Sans', sans-serif!important;
+    }
+	
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+	.facilites{
+		background: rgb(15 17 23);
+		color: rgb(255 255 255);
+		padding: 10px;
+		margin: 0px 10px;
+		border-radius: 16px;
+	}
+	.mainBlock{
+		display: flex;
+		padding: 23px;
+		margin: 12px 0px;
+		border-bottom: 1px solid rgb(169 169 169 / 17%);
+	}
+	.blockHead:after{
+		content: "";
+		position: absolute;
+		border-bottom: 4px solid rgb(36 64 101);
+		height: -2px;
+		width: 33%;
+		/* background: rgb(0 0 0); */
+		margin: 0 auto;
+		left: 50px;
+		right: 50px;
+		border-radius: 66px;
+	}
+	.myBlock>span>i{
+		margin: 14px 34px 9px 2px;
+		font-size: 31px;
+	
+	}
+	.color-orange{
+		color:orange;
+	}
+	.color-green{
+		color:green;
+	}
+	.color-blue{
+		color:blue;
+	}
+	.color-yellow{
+		color:yellow;
+	}
+	.sliMain,.myContact{
+		padding: 34px 10px;
+		text-align: center;
+		background: rgb(15 17 23)!important;
+		color: rgb(255 255 255);
+		border-radius: 13px;
+		width: 178px;
+		box-shadow: 0px 2px 112px -14px #80808014;
+	}
+
+	.sliIcon>span>i{
+		font-size: 30px;
+		padding: 10px;
+		background: rgb(36 64 101);
+		border-radius: 100px;
+	}
+	.slideMain>ul{
+		display: flex;
+        width: 100%;
+        overflow: scroll;
+        scroll-snap-align: start;
+        flex-shrink: 1;
+        transform-origin: center center;
+        scroll-snap-type: x mandatory;
+	}
+	.myContact{
+		width:100%;
+	}
+	.myContact>ul>li{
+		display:inline-flex!important;
+	}
+}
