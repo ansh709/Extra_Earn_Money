@@ -2,7 +2,7 @@
     "name": "Extra Earn Money",
     "short_name": "EEM",
     "start_url": "index.html",
-    "display": "standalone",
+    "display": "fullscreen",
     "background_color": "black",
     "theme_color": "black",
     "orientation": "portrait-primary",
